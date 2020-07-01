@@ -13,7 +13,7 @@
 
 // GET Request demo using fetch API
 
-let data = fetch('http://5cdd0a92b22718001417c19d.mockapi.io/api/users');
+let data = fetch('https://5cdd0a92b22718001417c19d.mockapi.io/api/users');
 data.then(res => res.json())
 .then(data => {
 	data.forEach(element => {
